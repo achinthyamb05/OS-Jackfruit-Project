@@ -6,6 +6,7 @@ Aadya Santhosh   PES1UG24CS005
 
 Achinthya MB     PES1UG24CS019
 
+
 Project Overview
 This project implements a lightweight Linux container runtime in C with:
 1. A long running supervisor that manages multiple containers
@@ -18,6 +19,7 @@ The system demonstrated core OS concepts such as process isolation, IPC, synchro
 
 
 SYSTEM ARCHITECTURE
+
 Components
 
 User-space runtime (engine.c)
@@ -85,25 +87,26 @@ DEMO WITH SCREENSHOTS
 <img width="387" height="116" alt="image" src="https://github.com/user-attachments/assets/07457718-476b-4b4e-acb4-3f32061301e6" />
 
 3. Logging pipeline     
-   <img width="621" height="97" alt="image" src="https://github.com/user-attachments/assets/607c4c32-79af-4715-87be-25f7374e0a7d" />
+<img width="621" height="97" alt="image" src="https://github.com/user-attachments/assets/607c4c32-79af-4715-87be-25f7374e0a7d" />
 
 4. CLI and IPC    cli command supervisor response
 
 5. Soft limit warning   dmesg | tail
-   <img width="636" height="48" alt="image" src="https://github.com/user-attachments/assets/7db701e8-81b1-4fdc-8597-7968ab972c03" />
+<img width="636" height="48" alt="image" src="https://github.com/user-attachments/assets/7db701e8-81b1-4fdc-8597-7968ab972c03" />
 
 6. Hard limit enforcement   container killed and metadata shows stopped
-   <img width="718" height="79" alt="image" src="https://github.com/user-attachments/assets/fef5f5a4-2f24-46ba-a449-86c82c8da9bf" />
-   <img width="218" height="96" alt="image" src="https://github.com/user-attachments/assets/751f933d-43c8-474e-abeb-b2be5f547eee" />
-   <img width="648" height="167" alt="image" src="https://github.com/user-attachments/assets/66a2dd9e-f387-41a1-9b62-e81fa554efa9" />
+<img width="718" height="79" alt="image" src="https://github.com/user-attachments/assets/fef5f5a4-2f24-46ba-a449-86c82c8da9bf" />
+<img width="218" height="96" alt="image" src="https://github.com/user-attachments/assets/751f933d-43c8-474e-abeb-b2be5f547eee" />
+<img width="648" height="167" alt="image" src="https://github.com/user-attachments/assets/66a2dd9e-f387-41a1-9b62-e81fa554efa9" />
 Kernel monitor logs showing soft-limit warnings and hard-limit enforcement (process termination).
 
 7. Scheduling experiment    o/p of workloads   and diff in execution behavior
-   <img width="719" height="220" alt="image" src="https://github.com/user-attachments/assets/026ce50f-acd4-4e54-b8f5-3fb2f88c942b" />
-   <img width="711" height="571" alt="image" src="https://github.com/user-attachments/assets/2f06db8e-1c3a-42c0-9c65-f2e95ccec6f9" />
+<img width="719" height="220" alt="image" src="https://github.com/user-attachments/assets/026ce50f-acd4-4e54-b8f5-3fb2f88c942b" />
+<img width="711" height="571" alt="image" src="https://github.com/user-attachments/assets/2f06db8e-1c3a-42c0-9c65-f2e95ccec6f9" />
 
 8. Clean teardown   ps aux   no zombie proccess
-   <img width="644" height="36" alt="image" src="https://github.com/user-attachments/assets/c22a4882-fb7d-490c-99db-0d154dd9e779" />
+<img width="644" height="36" alt="image" src="https://github.com/user-attachments/assets/c22a4882-fb7d-490c-99db-0d154dd9e779" />
+
 
 ENGINEERING ANALYSIS
 Isolation mechanisms
@@ -155,6 +158,7 @@ Monitor               kernel module                  Requires root
 
 
 CONCLUSION
+
 This project demonstrates real-world OS concepts including containerization, memory enforcement, and scheduling using a custom-built runtime.
 
 
