@@ -86,16 +86,24 @@ DEMO WITH SCREENSHOTS
 1. Multi-container supervision
 <img width="547" height="135" alt="image" src="https://github.com/user-attachments/assets/72dcb1f8-2366-4a49-aeda-c2ba328dd3ad" />
 
+
 2. Metadata tracking
 <img width="387" height="116" alt="image" src="https://github.com/user-attachments/assets/07457718-476b-4b4e-acb4-3f32061301e6" />
+
 
 3. Logging pipeline     
 <img width="621" height="97" alt="image" src="https://github.com/user-attachments/assets/607c4c32-79af-4715-87be-25f7374e0a7d" />
 
+
 4. CLI and IPC    cli command supervisor response
+<img width="1193" height="222" alt="image" src="https://github.com/user-attachments/assets/99ba5316-0936-4341-b16b-e352263c7177" />
+<img width="806" height="156" alt="image" src="https://github.com/user-attachments/assets/520f94c0-9cc9-4e7a-9925-c2d1c2f761bf" />
+
+
 
 5. Soft limit warning   dmesg | tail
 <img width="636" height="48" alt="image" src="https://github.com/user-attachments/assets/7db701e8-81b1-4fdc-8597-7968ab972c03" />
+
 
 6. Hard limit enforcement   container killed and metadata shows stopped
 <img width="718" height="79" alt="image" src="https://github.com/user-attachments/assets/fef5f5a4-2f24-46ba-a449-86c82c8da9bf" />
@@ -103,12 +111,15 @@ DEMO WITH SCREENSHOTS
 <img width="648" height="167" alt="image" src="https://github.com/user-attachments/assets/66a2dd9e-f387-41a1-9b62-e81fa554efa9" />
 Kernel monitor logs showing soft-limit warnings and hard-limit enforcement (process termination).
 
+
 7. Scheduling experiment    o/p of workloads   and diff in execution behavior
 <img width="719" height="220" alt="image" src="https://github.com/user-attachments/assets/026ce50f-acd4-4e54-b8f5-3fb2f88c942b" />
 <img width="711" height="571" alt="image" src="https://github.com/user-attachments/assets/2f06db8e-1c3a-42c0-9c65-f2e95ccec6f9" />
 
+
 8. Clean teardown   ps aux   no zombie proccess
 <img width="644" height="36" alt="image" src="https://github.com/user-attachments/assets/c22a4882-fb7d-490c-99db-0d154dd9e779" />
+
 
 
 ENGINEERING ANALYSIS
