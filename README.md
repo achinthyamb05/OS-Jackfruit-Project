@@ -109,6 +109,8 @@ DEMO WITH SCREENSHOTS
 <img width="718" height="79" alt="image" src="https://github.com/user-attachments/assets/fef5f5a4-2f24-46ba-a449-86c82c8da9bf" />
 <img width="218" height="96" alt="image" src="https://github.com/user-attachments/assets/751f933d-43c8-474e-abeb-b2be5f547eee" />
 <img width="648" height="167" alt="image" src="https://github.com/user-attachments/assets/66a2dd9e-f387-41a1-9b62-e81fa554efa9" />
+
+
 Kernel monitor logs showing soft-limit warnings and hard-limit enforcement (process termination).
 
 
